@@ -1,0 +1,153 @@
+    img {
+    width: 60px;
+    max-width: 100px;
+    display: flex;
+    justify-content: column;
+    }
+    
+    img[noshadow] {
+    box-shadow: none;
+    
+    }
+    
+    tit {
+    display: flex;
+    justify-content: space-between;
+    }
+    
+  p {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  }
+    
+    .ej1 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        background-color: lightskyblue;
+        place-items: center;
+    }
+    
+    .ej1 div {
+        background-color:lightyellow;
+    }
+   
+    .ej2 {
+        resize: both;
+        overflow: auto;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: blue;
+        justify-content: center;
+    }
+    
+    .ej2 div{
+        flex: 0 1 150px;
+        margin: 5px;
+        background-color:yellow;
+    }
+    
+    .ej3 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: minmax(150px, 25%) 1fr;
+        background-color: lightskyblue;
+    }
+    
+    .caja3-1{
+        background-color:lightyellow;
+    }
+    
+    .caja3-2 {
+        background-color: lightpink;
+    }
+    
+    .ej4 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        background-color: lightskyblue;
+    }
+    
+    .caja4-1{
+        background-color:lightyellow;
+    }
+    .caja4-2 {
+        background-color: lightsalmon;
+    }
+    .caja4-3 {
+        background-color: lightpink;
+    }
+    .ej5 {
+        resize: both;
+        overflow: auto;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-template-rows: auto 1fr auto;
+        background-color: lightskyblue;
+    }
+    
+    .caja5-1{
+        background-color:lightpink;
+        grid-column: 1 / 4;
+    }
+    .caja5-2 {
+        background-color: lightblue;
+    }
+    .caja5-3 {
+        background-color: lightsalmon;
+    }
+    .caja5-4 {
+        background-color: lightyellow;
+    }
+    .caja5-5 {
+        background-color: lightgreen;
+        grid-column: 1 / 4;
+    }
+
+        .ej6 {
+            resize: both;
+            overflow: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        }
+        
+        .caja6-1{
+            background-color:lightpink;
+        }
+        .caja6-2 {
+            background-color: lightblue;
+        }
+        .caja6-3 {
+            background-color: lightsalmon;
+        }
+        .caja6-4 {
+            background-color: lightyellow;
+        }
+    
+    
+        .ej7 {
+            resize: both;
+            overflow: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            padding: 1em;
+            border: 1px solid blue;
+        }
+        
+        .caja7-1{
+            background-color:lightpink;
+        }
+        .caja7-2 {
+            background-color: lightblue;
+        }
+        .caja7-3 {
+            background-color: lightsalmon;
+        }
+        .caja7-4 {
+            background-color: lightyellow;
+        }   
+    
